@@ -12,7 +12,7 @@ server.use(express.urlencoded({extended: true}))
 const Pool = require("pg").Pool
 const db = Pool({
   user: "postgres",
-  password: "382855",
+  password: "0000",
   host: "localhost",
   port: 5432,
   database: "doe"
