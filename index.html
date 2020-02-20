@@ -33,7 +33,7 @@
   <section class="form hide">
     <h2>Entre na Lista de Doadores</h2>
     <div>
-      <form action="/index.html" method="POST">
+      <form action="/" method="POST">
         <input type="text" name="name" placeholder="Nome">
         <input type="email" name="email" placeholder="Email">
         <input type="text" name="blood" placeholder="Tipo Sanguíneo">
@@ -50,9 +50,9 @@
 
         <div class="donor">
           <div class="blood">
-            {donor.blood}
+            {{donor.blood}}
           </div>
-          <p>{donor.name}</p>
+          <p>{{donor.name}}</p>
         </div>
 
       {%endfor%}
